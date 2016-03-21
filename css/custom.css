@@ -1,0 +1,356 @@
+.card {
+  flex-grow: 1;
+  z-index: 1;
+  margin: 1.5rem 1rem 1.5rem 1rem;
+}
+
+.card h1 {
+  position: relative;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: -8.5rem;
+  z-index: 2;
+  height: 7rem;
+  color: #fff;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+99&0.65+27,0+100 */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 27%, rgba(0,0,0,0.01) 99%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 27%,rgba(0,0,0,0.01) 99%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 27%,rgba(0,0,0,0.01) 99%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.card h2 {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card h3 {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.card-caption p {
+  font-style: italic;
+  text-align: center;
+  padding: 0;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+}
+
+.footie {
+  max-width: none;
+  width: 100vw;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3rem;
+}
+
+.icon-container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(100vh/5);
+  margin-bottom: calc(100vh/5);
+}
+
+.icon-container div {
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.icon-container p {
+  color: #fff;
+}
+
+.icon-container div .icon-text {
+  margin-top: -10px;
+  font-size: 10px;
+  color: #fff
+}
+
+.landing {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://i.imgur.com/rgOdA9h.gif');
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing img {
+  flex-grow: 1;
+  margin: auto;
+  overflow: hidden;
+  z-index: 1;
+  width: 50vw;
+  height: 50vh;
+}
+
+.logo {
+  width: 7rem;
+  height: 7rem;
+  margin: 15px;
+}
+
+.nav-button {
+  cursor: pointer;
+}
+
+.nav-button > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-button p {
+  font-size: 1rem;
+}
+
+.nav-button i {
+  color: #fff;
+  font-size: 5rem;
+  margin: 15px;
+}
+
+.nav-button img {
+  width: 5rem;
+  height: 5rem;
+  margin: 15px;
+}
+
+.nav-button:hover{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.menu-nav {
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 500;
+}
+
+.parallax {
+  display: flex;
+  height: 30rem;
+  max-width: none;
+  background:url("https://d2pi0bc9ewx28h.cloudfront.net/884adf69bbcc94b69ed2148b04cb8863/brbfmvr/ow7nzdx9p/tumblr_static_p2nipkvujzko8kswckskkkco_2048_v2.jpg") no-repeat center top fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.parallax h1 {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  font-size: 12rem;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+
+/* Custom Parallax */
+
+.dev {
+  display: flex;
+  height: 30rem;
+  max-width: none;
+  background:url("https://i.imgur.com/JLvLbmY.gif") no-repeat center top fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dev h1 {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  font-size: 12rem;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+
+.design {
+  display: flex;
+  height: 30rem;
+  max-width: none;
+  background:url("https://d2pi0bc9ewx28h.cloudfront.net/884adf69bbcc94b69ed2148b04cb8863/brbfmvr/ow7nzdx9p/tumblr_static_p2nipkvujzko8kswckskkkco_2048_v2.jpg") no-repeat center top fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.design h1 {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  font-size: 12rem;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+
+.ill {
+  display: flex;
+  height: 30rem;
+  max-width: none;
+  background:url("http://i.imgur.com/NTASCoa.gif") no-repeat center top fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ill h1 {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  font-size: 12rem;
+  font-family: "Oswald";
+  font-weight: bold;
+}
+
+/* End of Custom Paralax */
+
+.sock {
+  background-color: rgba(88, 199, 247, 0.31);
+  width: 100%;
+  height: 100%;
+}
+
+.social {
+  margin: 15px;
+  text-align: center;
+}
+
+.web {
+  flex-grow: 1;
+  z-index: 1;
+  margin: 1.5rem 1rem 1.5rem 1rem;
+  overflow: hidden;
+}
+
+.web img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: calc(100hw - 100px);
+  margin-left: 100px;
+}
+
+.z-depth-1, nav, .card-panel, .card, .web, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav .nav-menu {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover .nav-button:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.z-depth-2 {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.z-depth-3 {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+
+.z-depth-4, .modal {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21); }
+
+.z-depth-5 {
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22); }
+
+.hoverable:hover {
+  transition: box-shadow .25s;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+/* Media Queries */
+@media (max-width: 769px){
+  .parallax {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 550px){
+  .home-img{
+    display: none;
+  }
+
+  .icon-container{
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    margin: 0 auto;
+  }
+
+  .menu-nav{
+    height: 70px;
+    width: 100vw;
+
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    position: fixed;
+  }
+
+  .menu-nav img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .nav-button {
+    margin: 0px 15px 0px 15px;
+  }
+
+  .nav-button i {
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  .nav-button p {
+    font-size: 1rem;
+    margin: 0px;
+  }
+
+  .wrapper {
+    margin-left: 0px
+  }
+
+}
+
+@media (max-width: 550px){
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .title-text{
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 550px) {
+  .card h1 {
+    font-size: 4rem;
+  }
+}
