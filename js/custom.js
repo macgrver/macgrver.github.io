@@ -6,7 +6,13 @@ var image_landing = ['https://i.imgur.com/rgOdA9h.gif',
 'https://i.imgur.com/24S2Cqk.gif',
 'https://i.imgur.com/gw4GCl5.gif',
 'https://i.imgur.com/z6BK4VZ.gif',
-'https://i.imgur.com/Fj4gkoB.gif'];
+'https://i.imgur.com/Fj4gkoB.gif',
+'https://i.imgur.com/E6AW07F.gif',
+'https://i.imgur.com/R7FUJoe.gif',
+'https://i.imgur.com/qQaZDfe.gif',
+'https://i.imgur.com/VqsKuHW.gif',
+'https://i.imgur.com/dzT6OBC.gif',
+'https://i.imgur.com/188nN1F.gif'];
 
 var image_nav = ['https://i.imgur.com/tzJnQU0.gif',
 'https://i.imgur.com/k8Xzzce.gif',
