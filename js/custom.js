@@ -5,7 +5,8 @@ var image_landing = ['https://i.imgur.com/rgOdA9h.gif',
 'https://i.imgur.com/NBMX5ks.gif',
 'https://i.imgur.com/24S2Cqk.gif',
 'https://i.imgur.com/gw4GCl5.gif',
-'http://i.imgur.com/z6BK4VZ.gif'];
+'https://i.imgur.com/z6BK4VZ.gif',
+'https://i.imgur.com/Fj4gkoB.gif'];
 
 var image_nav = ['https://i.imgur.com/tzJnQU0.gif',
 'https://i.imgur.com/k8Xzzce.gif',
