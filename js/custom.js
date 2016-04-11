@@ -15,7 +15,9 @@ var image_landing = ['https://i.imgur.com/rgOdA9h.gif',
 'https://i.imgur.com/188nN1F.gif',
 'https://i.imgur.com/UFSnzIT.gif',
 'https://i.imgur.com/TtJroYn.gif',
-'http://i.imgur.com/UvcB3pP.gif'];
+'https://i.imgur.com/UvcB3pP.gif',
+'https://i.imgur.com/zD7eUzu.gif',
+'https://i.imgur.com/pTNAZ5H.gif',];
 
 var image_nav = ['https://i.imgur.com/tzJnQU0.gif',
 'https://i.imgur.com/k8Xzzce.gif',
