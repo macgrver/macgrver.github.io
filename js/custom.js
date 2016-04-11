@@ -28,7 +28,10 @@ var image_nav = ['https://i.imgur.com/tzJnQU0.gif',
 'https://i.imgur.com/BWGk59m.gif',
 'https://i.imgur.com/qoYeWy3.gif',
 'https://i.imgur.com/bHVKm4w.jpg',
-'https://i.imgur.com/sBpiXg8.gif'];
+'https://i.imgur.com/sBpiXg8.gif',
+'https://i.imgur.com/pTNAZ5H.gif',
+'https://i.imgur.com/IbQ10ZE.gif',
+'https://i.imgur.com/VDL9CFf.gif'];
 
 $('.landing').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});
 $('.menu-nav').css({'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'});
