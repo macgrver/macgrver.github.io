@@ -1,6 +1,6 @@
 var image_landing = ['https://i.imgur.com/rgOdA9h.gif',
 'https://i.imgur.com/j0I5OPF.gif',
-'http://i.imgur.com/KLWHjGu.gif',
+'https://i.imgur.com/KLWHjGu.gif',
 'https://i.imgur.com/MnVsBuU.gif',
 'https://i.imgur.com/fJ1fizf.gif',
 'https://i.imgur.com/NBMX5ks.gif',
@@ -15,7 +15,8 @@ var image_landing = ['https://i.imgur.com/rgOdA9h.gif',
 'https://i.imgur.com/zD7eUzu.gif',
 'https://i.imgur.com/pTNAZ5H.gif',
 'https://i.imgur.com/IbQ10ZE.gif',
-'https://i.imgur.com/VDL9CFf.gif'];
+'https://i.imgur.com/VDL9CFf.gif', 
+'https://i.imgur.com/CNtxLI3.gif'];
 
 var image_nav = ['https://i.imgur.com/tzJnQU0.gif',
 'https://i.imgur.com/k8Xzzce.gif',
