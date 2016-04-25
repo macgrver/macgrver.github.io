@@ -16,7 +16,10 @@ var image_landing = ['https://i.imgur.com/rgOdA9h.gif',
 'https://i.imgur.com/pTNAZ5H.gif',
 'https://i.imgur.com/IbQ10ZE.gif',
 'https://i.imgur.com/VDL9CFf.gif', 
-'https://i.imgur.com/CNtxLI3.gif'];
+'https://i.imgur.com/CNtxLI3.gif',
+'https://i.imgur.com/Y8x5SBQ.gif',
+'https://i.imgur.com/5HusAhK.gif',
+'https://i.imgur.com/Onbamqp.gif'];
 
 var image_nav = ['https://i.imgur.com/tzJnQU0.gif',
 'https://i.imgur.com/k8Xzzce.gif',
@@ -28,7 +31,8 @@ var image_nav = ['https://i.imgur.com/tzJnQU0.gif',
 'https://i.imgur.com/sBpiXg8.gif',
 'https://i.imgur.com/pTNAZ5H.gif',
 'https://i.imgur.com/IbQ10ZE.gif',
-'https://i.imgur.com/VDL9CFf.gif'];
+'https://i.imgur.com/VDL9CFf.gif',
+'https://i.imgur.com/5HusAhK.gif'];
 
 $('.landing').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});
 $('.menu-nav').css({'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'});
