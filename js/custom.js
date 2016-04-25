@@ -1,6 +1,6 @@
 var image_landing = ['https://i.imgur.com/rgOdA9h.gif',
 'https://i.imgur.com/j0I5OPF.gif',
-'http://i.imgur.com/ffW0Xoi.gif',
+'http://i.imgur.com/KLWHjGu.gif',
 'https://i.imgur.com/MnVsBuU.gif',
 'https://i.imgur.com/fJ1fizf.gif',
 'https://i.imgur.com/NBMX5ks.gif',
