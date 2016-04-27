@@ -106,7 +106,7 @@
 
 .profile_image {
   display: flex;
-  background-image: url('https://dl.dropboxusercontent.com/u/40034779/profile.jpg');
+  background-image: url('../images/profile_small.jpg');
   background-size: cover;
   border-radius: 50%;
   width: 200px;
