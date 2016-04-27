@@ -37,6 +37,7 @@ var image_nav = ['https://i.imgur.com/tzJnQU0.gif',
 $('.landing').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});
 $('.menu-nav').css({'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'});
 $('.footie').css({'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'});
+$('.profile_image_background').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});
 
 $(".develop").click(function() {
     $('html, body').animate({
