@@ -62,3 +62,17 @@ $(".logo").click(function() {
         scrollTop: $("html, body").offset().top},
         'slow');
 });
+
+/* Needs Jquery 2.1.3 */
+;( function( $ ){
+  $.preloaded = function(){
+    var imgs = Object.prototype.toString.call( arguments[ 0 ]) === '[object Array]'
+      ? arguments[ 0 ] : arguments;
+
+    var tmp = [];
+    var i   = imgs.length;
+
+    // reverse loop run faster
+    for( ; i-- ; ) tmp.push( $( '<img />' ).attr( 'src', imgs[ i ]));
+  };
+})( jQuery );

@@ -14,12 +14,9 @@ $('.social').on('click', function() {
         backgroundColor: '#' + Math.floor(Math.random() * 16777215).toString(16)
 
       });
-  $('.deck, .title').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+  $('.deck').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
     function() {
       $(this).removeClass('animated bounceIn');
-      $('.title > h1, .title > h2').css({
-        color: '#' + Math.floor(Math.random() * 16777215).toString(16)
-      });
     });
     $('.deck').toggleClass('hidden');
     $('.landing > img, .landing > p').toggleClass('hidden');
