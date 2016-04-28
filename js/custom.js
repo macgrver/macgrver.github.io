@@ -17,8 +17,7 @@ var image_landing = ['../images/landing/landing1.gif',
                     '../images/landing/landing17.gif', 
                     '../images/landing/landing18.gif', 
                     '../images/landing/landing19.gif', 
-                    '../images/landing/landing20.gif', 
-                    '../images/landing/landing21.gif', ];
+                    '../images/landing/landing20.gif', ];
 
 var image_nav = ['../images/nav/nav1.gif', 
                 '../images/nav/nav2.gif', 
@@ -27,10 +26,7 @@ var image_nav = ['../images/nav/nav1.gif',
                 '../images/nav/nav5.gif', 
                 '../images/nav/nav6.gif', 
                 '../images/nav/nav7.gif', 
-                '../images/nav/nav8.gif', 
-                '../images/nav/nav9.gif', 
-                '../images/nav/nav10.gif', 
-                '../images/nav/nav11.gif', ];
+                '../images/nav/nav8.gif', ];
 
 $('.landing').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});
 $('.menu-nav').css({'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'});
