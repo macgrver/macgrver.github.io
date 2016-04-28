@@ -4,7 +4,7 @@
   margin: 1.5rem 1rem 1.5rem 1rem;
 }
 
-.card h1 {
+.card > h1 {
   position: relative;
   padding-top: 1.5rem;
   padding-right: 1.5rem;
@@ -21,26 +21,26 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
-.card h2 {
+.card > h2 {
   padding: 1rem 2rem 1rem 2rem;
   margin-bottom: 0.5rem;
 }
 
-.card h3 {
+.card > h3 {
   padding: 1rem 2rem 1rem 2rem;
   margin-bottom: 0.5rem;
 }
 
-.card img {
+.card > img {
   width: 100%;
   margin-bottom: 0.5rem;
 }
 
-.card p {
+.card > p {
   padding: 1rem 2rem 1rem 2rem;
 }
 
-.card-caption p {
+.card-caption > p {
   font-style: italic;
   text-align: center;
   padding: 0;
@@ -67,20 +67,18 @@
   -webkit-box-orient: vertical;
   display: flex;
   flex-direction: column;
-  margin-top: calc(100vh/5);
-  margin-bottom: calc(100vh/5);
 }
 
-.icon-container div {
+.icon-container > div {
   padding: 5px 5px;
   text-align: center;
 }
 
-.icon-container p {
+.icon-container > p {
   color: #fff;
 }
 
-.icon-container div .icon-text {
+.icon-container > div, .icon-text {
   margin-top: -10px;
   font-size: 10px;
   color: #fff
@@ -88,6 +86,8 @@
 
 .landing {
   display: flex;
+justify-content: center;
+    align-items: center;
   height: 100vh;
   width: 100%;
   background-repeat: none;
@@ -95,12 +95,12 @@
   background-size: cover;
 }
 
-.landing img {
-  margin: auto;
+.landing > img {
   overflow: hidden;
   z-index: 1;
   width: 50vw;
-  height: 50vh;
+  height: auto;
+    margin-top: 20vh;
 }
 
 .logo {
@@ -118,17 +118,17 @@
   text-decoration: none;
 }
 
-.nav-button p {
+.nav-button > p {
   font-size: 1rem;
 }
 
-.nav-button i {
+.nav-button > i {
   color: #fff;
   font-size: 5rem;
   margin: 15px;
 }
 
-.nav-button img {
+.nav-button > img {
   width: 5rem;
   height: 5rem;
   margin: 15px;
@@ -163,7 +163,7 @@
   background-size: cover;
 }
 
-.parallax h1 {
+.parallax > h1 {
   text-align: center;
   color: #fff;
   margin: auto;
@@ -184,7 +184,7 @@
   background-size: cover;
 }
 
-.dev h1 {
+.dev > h1 {
   text-align: center;
   color: #fff;
   margin: auto;
@@ -203,7 +203,7 @@
   background-size: cover;
 }
 
-.design h1 {
+.design > h1 {
   text-align: center;
   color: #fff;
   margin: auto;
@@ -222,7 +222,7 @@
   background-size: cover;
 }
 
-.ill h1 {
+.ill > h1 {
   text-align: center;
   color: #fff;
   margin: auto;
@@ -253,7 +253,7 @@
   overflow: hidden;
 }
 
-.web img {
+.web > img {
   width: 100%;
   margin-bottom: 0.5rem;
 }
@@ -294,63 +294,54 @@
   }
 }
 
-@media (max-width: 550px){
-  .home-img{
-    display: none;
-  }
-
-  .icon-container{
-    flex-direction: row;
-    -webkit-box-orient: horizontal;
-    margin: 0 auto;
-  }
-
-  .menu-nav{
-    height: 70px;
-    width: 100vw;
-
-    -webkit-box-orient: horizontal;
-    flex-direction: row;
-    position: fixed;
-  }
-
-  .menu-nav img {
-    width: 3rem;
-    height: 3rem;
-  }
-
-  .nav-button {
-    margin: 0px 15px 0px 15px;
-  }
-
-  .nav-button i {
-    font-size: 2rem;
-    margin: 10px;
-  }
-
-  .nav-button p {
-    font-size: 1rem;
-    margin: 0px;
-  }
-
-  .wrapper {
-    margin-left: 0px
-  }
-
+@media (max-width: 550px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .home-img {
+        display: none;
+    }
+    .icon-container {
+        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        margin-top: 1vh
+    }
+    .landing > img {
+        margin-top: 25vh;
+    }
+    .menu-nav {
+        height: 70px;
+        width: 100vw;
+        -webkit-box-orient: horizontal;
+        flex-direction: row;
+        position: fixed;
+    }
+    .menu-nav > img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .nav-button {
+        margin: 0px 10px 0px 10px;
+    }
+    .nav-button > i {
+        font-size: 2rem;
+        margin: 10px;
+    }
+    .nav-button > p {
+        font-size: 1rem;
+        margin: 0px;
+    }
+    .title-text {
+        margin-top: 0;
+    }
+    .wrapper {
+        margin-left: 0px
+    }
 }
 
-@media (max-width: 550px){
-  .container {
-    flex-wrap: wrap;
-  }
-
-  .title-text{
-    margin-top: 0;
-  }
-}
 
 @media (min-width: 550px) {
-  .card h1 {
+  .card > h1 {
     font-size: 4rem;
   }
 }
