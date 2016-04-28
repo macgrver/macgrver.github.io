@@ -96,7 +96,6 @@
 }
 
 .landing img {
-  flex-grow: 1;
   margin: auto;
   overflow: hidden;
   z-index: 1;
