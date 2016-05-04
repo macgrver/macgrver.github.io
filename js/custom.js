@@ -16,7 +16,9 @@ var image_landing = ['../images/landing/landing1.gif',
                     '../images/landing/landing16.gif', 
                     '../images/landing/landing17.gif', 
                     '../images/landing/landing18.gif', 
-                    '../images/landing/landing19.gif', ];
+                    '../images/landing/landing19.gif',
+                    '../images/landing/landing20.gif',
+                    '../images/landing/landing21.gif'];
 
 var image_nav = ['../images/nav/nav1.gif', 
                 '../images/nav/nav2.gif', 
