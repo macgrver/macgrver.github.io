@@ -8,7 +8,7 @@ $(".title > h1, .title > h2").css({
   color: '#' + randomColor
 });
 
-$('.social').on('click', function() {
+$('.social > .fa, .social > .fa-user').on('click', function() {
     $(".profile_card").css({
 
         backgroundColor: '#' + Math.floor(Math.random() * 16777215).toString(16)
@@ -22,7 +22,7 @@ $('.social').on('click', function() {
     $('.landing > img, .landing > p').toggleClass('hidden');
 });
 
-$('.social').hover(
+$('.social > .fa, .social > .fa-user').hover(
   function() {
     $(this).css({
       color: '#' + Math.floor(Math.random() * 16777215).toString(16)
