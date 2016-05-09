@@ -29,7 +29,6 @@
 
 .deck {
   display: flex;
-    align-self: center;
   flex-direction: column;
   height: auto;
   border-top-left-radius: 4px;
@@ -169,6 +168,6 @@
 
 @media (max-width: 550px) {
     .deck {
-        margin: 20vh calc(50vw - 186px); 
+        margin: 13vh calc(40vw - 150px); 
     }
 }
