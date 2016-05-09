@@ -89,7 +89,9 @@ body {
 }
 
 .landing {
-  display: flex;
+  display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 justify-content: center;
     align-items: center;
   height: 100vh;
@@ -265,12 +267,22 @@ justify-content: center;
 
 .wrapper {
     background-color: #777;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  width: 100vw;
-  margin-left: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100vw;
+    margin-left: 100px;
 }
 
+.wrapper_deck {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 100px;
+    background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
 .z-depth-1, nav, .card-panel, .card, .web, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav .nav-menu {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
@@ -352,6 +364,9 @@ justify-content: center;
     }
     .wrapper {
         margin-left: 0px
+    }
+    .wrapper_deck {
+        margin-left: 0px;;
     }
 }
 

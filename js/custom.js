@@ -27,7 +27,7 @@ var image_nav = ['../images/nav/nav1.gif',
                 '../images/nav/nav7.gif', 
                 '../images/nav/nav8.gif', ];
 
-$('.landing').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});
+$('.landing, .wrapper_deck').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});
 $('.menu-nav').css({'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'});
 $('.footie').css({'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'});
 $('.profile_image_background').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});

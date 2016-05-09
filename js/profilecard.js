@@ -18,7 +18,8 @@ $('.social > .fa, .social > .fa-user').on('click', function() {
     function() {
       $(this).removeClass('animated bounceIn');
     });
-    $('.deck').toggleClass('hidden');
+    $('.wrapper').toggleClass('hidden');
+    $('.wrapper_deck').toggleClass('hidden');
     $('.landing > img, .landing > p').toggleClass('hidden');
 });
 
