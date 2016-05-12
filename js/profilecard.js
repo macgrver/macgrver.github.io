@@ -1,5 +1,11 @@
 var randomColor = Math.floor(Math.random() * 16777215).toString(16);
 
+var quote_array = ["I loves gifs... way too much.", 
+                   "Let's design a world with better internet.", 
+                  "Time is an illusion. Lunchtime doubly so.",
+                  "On the internet nobody knows you're a dog."];
+var bool = true;
+
 $(".profile_card").css({
   backgroundColor: '#' + randomColor
 });
@@ -8,19 +14,35 @@ $(".title > h1, .title > h2").css({
   color: '#' + randomColor
 });
 
-$('.social > .fa, .social > .fa-user').on('click', function() {
+$('.social > .fa, .social > .fa-user').on('click', function () {    
+    if(bool === true){
     $(".profile_card").css({
 
         backgroundColor: '#' + Math.floor(Math.random() * 16777215).toString(16)
 
-      });
-  $('.deck').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-    function() {
-      $(this).removeClass('animated bounceIn');
     });
+    var rando_quote = quote_array[Math.round(Math.random() * quote_array.length-1)];
+    $('.sub_text > p').text(rando_quote);
+    $('.deck').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+        function () {
+            $(this).removeClass('animated bounceIn');
+        });
     $('.wrapper').toggleClass('hidden');
     $('.wrapper_deck').toggleClass('hidden');
     $('.landing > img, .landing > p').toggleClass('hidden');
+    bool = false;
+}
+    else if(bool === false){
+        $('.deck').addClass('animated bounceOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+        function () {
+            $(this).removeClass('animated bounceOut');
+            $('.wrapper').toggleClass('hidden');
+            $('.wrapper_deck').toggleClass('hidden');
+            $('.landing > img, .landing > p').toggleClass('hidden');
+        });
+    
+        bool = true;
+    }
 });
 
 $('.social > .fa, .social > .fa-user').hover(
@@ -32,6 +54,6 @@ $('.social > .fa, .social > .fa-user').hover(
   function() {
     $(this).css({
       color: '#fff'
-    })
+    });
   }
 );
