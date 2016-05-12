@@ -27,6 +27,14 @@
   margin: 1em 1em 1em 1em;
 }
 
+.close {
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: -225px;
+    left: 175px;
+    cursor: pointer;
+}
+
 .deck {
   display: flex;
   flex-direction: column;
@@ -36,7 +44,7 @@
   animation-duration: 0.5s;
   -webkit-animation-duration: 0.5s;
   -moz-animation-duration: 0.5s;
-  margin: 20vh calc(50vw - 250px);
+  margin: 30vh calc(50vw - 250px);
   z-index: 10000;
 }
 

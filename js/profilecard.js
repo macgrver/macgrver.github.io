@@ -14,7 +14,7 @@ $(".title > h1, .title > h2").css({
   color: '#' + randomColor
 });
 
-$('.social > .fa, .social > .fa-user').on('click', function () {    
+$('.social > .fa, .social > .fa-user, .profile_image > .close').on('click', function () {    
     if(bool === true){
     $(".profile_card").css({
 
