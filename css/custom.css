@@ -118,6 +118,10 @@ justify-content: center;
 }
 
 .nav-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   cursor: pointer;
 }
 
@@ -137,9 +141,8 @@ justify-content: center;
 }
 
 .nav-button > img {
-  width: 5rem;
   height: 5rem;
-  margin: 15px;
+  margin: 8px;
 }
 
 .nav-button:hover{
@@ -249,10 +252,14 @@ justify-content: center;
 }
 
 .social {
-  margin: 15px;
+  padding: 15px;
   text-align: center;
     color: #fff;
     cursor: pointer;
+}
+
+.social:hover {
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 .web {
