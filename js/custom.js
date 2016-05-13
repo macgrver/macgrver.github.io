@@ -34,9 +34,7 @@ var image_profile = ['../images/profile_image/profile_image1.gif',
                     '../images/profile_image/profile_image5.gif',
                     '../images/profile_image/profile_image6.gif',
                     '../images/profile_image/profile_image7.gif',
-                    '../images/profile_image/profile_image8.gif',
-                    '../images/profile_image/profile_image9.gif',
-                     '../images/profile_image/profile_image10.gif'
+                    '../images/profile_image/profile_image8.gif'
                     ];
 
 $('.landing, .wrapper_deck').css({'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'});
