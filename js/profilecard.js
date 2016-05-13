@@ -4,7 +4,7 @@ var quote_array = ["I loves gifs... way too much.",
                    "Let's design a world with better internet.", 
                   "Time is an illusion. Lunchtime doubly so.",
                   "On the internet nobody knows you're a dog."];
-var bool = true;
+var hasClicked = false;
 
 $(".profile_card").css({
   backgroundColor: '#' + randomColor
@@ -15,7 +15,7 @@ $(".title > h1, .title > h2").css({
 });
 
 $('.social > .fa, .social > .fa-user, .profile_image > .close').on('click', function () {    
-    if(bool === true){
+    if(hasClicked === false){
     $(".profile_card").css({
 
         backgroundColor: '#' + Math.floor(Math.random() * 16777215).toString(16)
@@ -30,9 +30,9 @@ $('.social > .fa, .social > .fa-user, .profile_image > .close').on('click', func
     $('.wrapper').toggleClass('hidden');
     $('.wrapper_deck').toggleClass('hidden');
     $('.landing > img, .landing > p').toggleClass('hidden');
-    bool = false;
+    hasClicked = true;
 }
-    else if(bool === false){
+    else if(hasClicked === true){
         $('.deck').addClass('animated bounceOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
         function () {
             $(this).removeClass('animated bounceOut');
@@ -41,7 +41,7 @@ $('.social > .fa, .social > .fa-user, .profile_image > .close').on('click', func
             $('.landing > img, .landing > p').toggleClass('hidden');
         });
     
-        bool = true;
+        hasClicked = false;
     }
 });
 
