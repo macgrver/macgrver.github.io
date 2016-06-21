@@ -108,6 +108,7 @@ body {
 }
 
 .landing > img {
+    margin-top: 30vh;
     overflow: none;
     z-index: 1;
     max-width: 700px;
