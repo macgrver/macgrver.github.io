@@ -127,7 +127,6 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .nav-button > a {
@@ -153,6 +152,7 @@ body {
 
 .nav-button:hover {
     background-color: rgba(255, 255, 255, 0.25);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .menu-nav {
