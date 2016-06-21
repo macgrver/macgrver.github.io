@@ -395,9 +395,9 @@ nav,
         flex-direction: row;
         position: fixed;
     }
-    .menu-nav > img {
-        width: auto;
-        height: 4rem;
+    .menu-nav > .logo {
+        width: 4em;
+        height: auto;
     }
     .nav-button {
         margin: 0px 10px 0px 10px;
