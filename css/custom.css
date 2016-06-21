@@ -104,10 +104,10 @@ justify-content: center;
 }
 
 .landing > img {
-  overflow: hidden;
-  z-index: 1;
-  width: 50vw;
-  height: auto;
+    overflow: none;
+    z-index: 1;
+    max-width: 800px;
+    height: auto;
     margin-top: 20vh;
 }
 
@@ -143,6 +143,7 @@ justify-content: center;
 .nav-button > img {
   height: 5rem;
   margin: 8px;
+    opacity: 0.8;
 }
 
 .nav-button:hover{
