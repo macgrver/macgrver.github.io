@@ -3,7 +3,9 @@ var randomColor = Math.floor(Math.random() * 16777215).toString(16);
 var quote_array = ["I loves gifs... way too much.",
                   "Time is an illusion. Lunchtime doubly so.",
                   "On the internet nobody knows you're a dog.",
-                  "Graphic designer with a taste for ambitious web experiences."];
+                  "Graphic designer with a taste for ambitious web experiences.",
+                  "Is this too many gifs? Hmmm, I'm not sure if there's enough to be honest.",
+                  "Sometimes science is a lot more art, than science. A lot of people don't get that."];
 var hasClicked = false;
 
 $(".profile_card").css({
@@ -44,14 +46,14 @@ $('.social, .profile_image > .close').on('click', function () {
     }
 });
 
-$('.social > .fa, .social > .fa-user').hover(
+$('.social').hover(
     function () {
-        $(this).css({
+        $('.social > .fa, .social > .fa-user').css({
             color: '#' + Math.floor(Math.random() * 16777215).toString(16)
         });
     },
     function () {
-        $(this).css({
+        $('.social > .fa, .social > .fa-user').css({
             color: '#fff'
         });
     }
