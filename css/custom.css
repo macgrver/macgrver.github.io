@@ -107,12 +107,8 @@ body {
     background-size: cover;
 }
 
-.landing > img {
-    margin-top: 30vh;
-    overflow: none;
-    z-index: 1;
+.center > img {
     max-width: 700px;
-    height: auto;
 }
 
 .logo {
@@ -386,8 +382,7 @@ nav,
         flex-direction: row;
         -webkit-box-orient: horizontal;
     }
-    .landing > img {
-        margin-top: 25vh;
+    .center > img {
         max-width: 350px;
     }
     .menu-nav {
