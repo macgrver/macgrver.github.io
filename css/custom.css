@@ -271,10 +271,6 @@ body {
     cursor: pointer;
 }
 
-.social:hover {
-    background-color: rgba(255, 255, 255, 0.25);
-}
-
 .web {
     flex-grow: 1;
     z-index: 1;
