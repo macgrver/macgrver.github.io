@@ -60,6 +60,10 @@
     padding: 2rem 2rem 2rem 2rem;
 }
 
+.desc > p {
+    margin-bottom: 0px;
+}
+
 .profile_image_background {
     display: flex;
     justify-content: center;
