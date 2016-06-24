@@ -29,6 +29,10 @@ $('.social, .deck > .close').on('click', function () {
             function () {
                 $(this).removeClass('animated bounceIn');
             });
+        $('.center').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+            function () {
+                $(this).removeClass('animated bounceIn');
+            });
         $('.profile_image').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
             function () {
                 $(this).removeClass('animated bounceIn');

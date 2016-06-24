@@ -209,8 +209,4 @@
     .deck {
         margin: 13vh calc(40vw - 150px);
     }
-    .close {
-        top: 15px;
-        right: 60px;
-    }
 }
