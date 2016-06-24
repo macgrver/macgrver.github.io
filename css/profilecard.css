@@ -30,9 +30,10 @@
 .close {
     color: rgba(255, 255, 255, 0.5);
     position: relative;
-    top: -225px;
-    left: 175px;
+    top: 45px;
+    left: 20px;
     cursor: pointer;
+    z-index: 10001;
 }
 
 .deck {
@@ -127,9 +128,9 @@
     align-items: center;
     z-index: 110;
     margin-top: 150px;
-    animation-duration: 0.5s;
-    -webkit-animation-duration: 0.5s;
-    -moz-animation-duration: 0.5s;
+    animation-duration: 0.25s;
+    -webkit-animation-duration: 0.25s;
+    -moz-animation-duration: 0.25s;
 }
 
 .sub_text {
@@ -209,7 +210,7 @@
         margin: 13vh calc(40vw - 150px);
     }
     .close {
-        top: -225px;
-        left: 165px;
+        top: 15px;
+        right: 60px;
     }
 }

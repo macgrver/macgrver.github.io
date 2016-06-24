@@ -118,6 +118,7 @@ body {
     width: auto;
     height: 3.5em;
     padding: 15px;
+    cursor: pointer;
 }
 
 .nav-button {
@@ -147,7 +148,6 @@ body {
 .nav-button > img {
     height: 5rem;
     margin: 8px;
-    opacity: 0.8;
 }
 
 .nav-button:hover,
@@ -171,10 +171,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     z-index: 500;
-}
-
-.menu-nav > .logo {
-    opacity: 0.9;
 }
 
 .parallax {
@@ -298,6 +294,34 @@ body {
     background-repeat: none;
     background-position: center;
     background-size: cover;
+}
+
+.devwrapper {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 100px;
+    background-color: aliceblue;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.illwrapper {
+    background-color: #777;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.designwrapper {
+    background-color: #777;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    margin-left: 100px;
 }
 
 .z-depth-1,

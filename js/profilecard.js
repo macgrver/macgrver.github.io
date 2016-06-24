@@ -34,8 +34,8 @@ $(".title > h1, .title > h2").css({
     color: '#' + randomColor
 });
 
-$('.social, .profile_image > .close').on('click', function () {
-    if (hasClicked === false) {
+$('.social, .deck > .close').on('click', function () {
+    if (hasClicked === true) {
         $(".profile_card").css({
 
             backgroundColor: '#' + Math.floor(Math.random() * 16777215).toString(16)
@@ -63,8 +63,15 @@ $('.social, .profile_image > .close').on('click', function () {
                 $('.wrapper_deck').toggleClass('hidden');
                 $('.landing > img, .landing > p').toggleClass('hidden');
             });
+        $('.profile_image').addClass('animated bounceOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+            function () {
+                $(this).removeClass('animated bounceOut');
+                $('.wrapper').toggleClass('hidden');
+                $('.wrapper_deck').toggleClass('hidden');
+                $('.landing > img, .landing > p').toggleClass('hidden');
+            });
 
-        hasClicked = false;
+        hasClicked = true;
     }
 });
 
