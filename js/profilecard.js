@@ -43,8 +43,8 @@ $('.social, .deck > .close').on('click', function () {
         });
         var rando_quote = quote_array[Math.round(Math.random() * quote_array.length)];
         $('.sub_text > p').text(rando_quote);
-        $('.deck').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
-            , function () {
+        $('.deck').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+            function () {
                 $(this).removeClass('animated bounceIn');
             });
         $('.center').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
@@ -70,19 +70,35 @@ $('.social, .deck > .close').on('click', function () {
                 $('.wrapper_deck').toggleClass('hidden');
                 $('.landing > img, .landing > p').toggleClass('hidden');
             });
+        $('.profile_image').addClass('animated bounceOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+            function () {
+                $(this).removeClass('animated bounceOut');
+                $('.wrapper').toggleClass('hidden');
+                $('.wrapper_deck').toggleClass('hidden');
+                $('.landing > img, .landing > p').toggleClass('hidden');
+            });
 
         hasClicked = true;
     }
 });
 
+/*$('.nav-button.develop').on('click', function () {
+    if (!$('.wrapper').hasClass("hidden")) {
+        $('.wrapper').toggleClass('hidden')
+    } else if (!$('.wrapper_deck').hasClass("hidden")) {
+        $('.wrapper_deck').toggleClass('hidden')
+    } else if ($('.devwrapper').hasClass("hidden")) {
+        $('.devwrapper').toggleClass('hidden')
+    }
+});*/
 
 $('.social').hover(
     function () {
         $('.social > .fa, .social > .fa-user').css({
             color: '#' + Math.floor(Math.random() * 16777215).toString(16)
         });
-    }
-    , function () {
+    },
+    function () {
         $('.social > .fa, .social > .fa-user').css({
             color: '#fff'
         });
