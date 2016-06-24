@@ -33,7 +33,7 @@
     top: 45px;
     left: 20px;
     cursor: pointer;
-    z-index: 10001;
+    z-index: 401;
 }
 
 .deck {
@@ -46,7 +46,7 @@
     -webkit-animation-duration: 0.5s;
     -moz-animation-duration: 0.5s;
     margin: 25vh calc(50vw - 250px);
-    z-index: 10000;
+    z-index: 400;
 }
 
 .addflexcolumn {
