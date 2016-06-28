@@ -25,6 +25,9 @@ $('.social, .deck > .close').on('click', function () {
         });
         var rando_quote = quote_array[Math.round(Math.random() * quote_array.length)];
         $('.sub_text > p').text(rando_quote);
+        $('.profile_image_background').css({
+            'background-image': 'url(' + image_profile[Math.floor(Math.random() * image_profile.length)] + ')'
+        });
         $('.deck').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
             function () {
                 $(this).removeClass('animated bounceIn');

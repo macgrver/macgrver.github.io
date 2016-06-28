@@ -42,8 +42,9 @@ var image_profile = ['../images/profile_image/profile_image1.gif',
                      '../images/profile_image/profile_image12.gif'
                     ];
 
-/* I claim no ownership to the gifs above. Their use is demonstration only. Please support the original artists */
-/* Most gifs come from http://kidmograph.tumblr.com/ please check out the rest of his amazing work */
+/* I claim no ownership to the gifs above. Their use is for demonstration only. Please support the original artists. */
+/* Most gifs come from http://kidmograph.tumblr.com/ please check out the rest of his amazing work. */
+/* Also check out http://www.heart-machine.com/ for the source of all the Hyper Light Drifter Art. */
 
 $('.landing, .wrapper_deck').css({
     'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'
@@ -53,9 +54,6 @@ $('.menu-nav').css({
 });
 $('.footie').css({
     'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'
-});
-$('.profile_image_background').css({
-    'background-image': 'url(' + image_profile[Math.floor(Math.random() * image_profile.length)] + ')'
 });
 
 $(".develop").click(function () {
