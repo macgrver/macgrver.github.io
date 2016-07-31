@@ -195,7 +195,8 @@ body {
 
 /* Custom Parallax */
 
-.dev {
+
+/*.dev {
     display: flex;
     height: 30rem;
     max-width: none;
@@ -250,7 +251,7 @@ body {
     font-size: 12rem;
     font-family: "Oswald";
     font-weight: bold;
-}
+}*/
 
 
 /* End of Custom Paralax */
@@ -296,19 +297,7 @@ body {
     background-size: cover;
 }
 
-.devwrapper {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 100vw;
-    height: 100vh;
-    margin-left: 100px;
-    background-color: aliceblue;
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
-}
-
-.illwrapper {
+.wrapper_dev {
     background-color: #777;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -316,7 +305,15 @@ body {
     margin-left: 100px;
 }
 
-.designwrapper {
+.wrapper_design {
+    background-color: #777;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.wrapper_ill {
     background-color: #777;
     overflow-x: hidden;
     overflow-y: scroll;
