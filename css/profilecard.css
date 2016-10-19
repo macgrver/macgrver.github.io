@@ -119,7 +119,7 @@
 
 .profile_image {
     display: flex;
-    background-image: url('../images/profile_smaller.jpg');
+    background-image: url('../images/sam_pro.png');
     background-size: cover;
     border-radius: 50%;
     width: 200px;
