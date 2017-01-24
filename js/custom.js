@@ -1,50 +1,47 @@
-var image_landing = ['../images/landing/landing1.gif',
-                    '../images/landing/landing2.gif',
-                    '../images/landing/landing3.gif',
-                    '../images/landing/landing4.gif',
-                    '../images/landing/landing5.gif',
-                    '../images/landing/landing6.gif',
-                    '../images/landing/landing7.gif',
-                    '../images/landing/landing8.gif',
-                    '../images/landing/landing9.gif',
-                    '../images/landing/landing10.gif',
-                    '../images/landing/landing11.gif',
-                    '../images/landing/landing12.gif',
-                    '../images/landing/landing13.gif',
-                    '../images/landing/landing14.gif',
-                    '../images/landing/landing15.gif',
-                    '../images/landing/landing16.gif',
-                    '../images/landing/landing17.gif',
-                    '../images/landing/landing18.gif',
-                    '../images/landing/landing19.gif',
-                    '../images/landing/landing20.gif'];
-
-var image_nav = ['../images/nav/nav1.gif',
-                '../images/nav/nav2.gif',
-                '../images/nav/nav3.gif',
-                '../images/nav/nav4.gif',
-                '../images/nav/nav5.gif',
-                '../images/nav/nav6.gif',
-                '../images/nav/nav7.gif',
-                '../images/nav/nav8.gif' ];
-
-var image_profile = ['../images/profile_image/profile_image1.gif',
-                    '../images/profile_image/profile_image2.gif',
-                    '../images/profile_image/profile_image3.gif',
-                    '../images/profile_image/profile_image4.gif',
-                    '../images/profile_image/profile_image5.gif',
-                    '../images/profile_image/profile_image6.gif',
-                    '../images/profile_image/profile_image7.gif',
-                    '../images/profile_image/profile_image8.gif',
-                     '../images/profile_image/profile_image9.gif',
-                     '../images/profile_image/profile_image10.gif',
-                     '../images/profile_image/profile_image11.gif'
+var image_landing = ['../images/landing/landing1.gif'
+                    , '../images/landing/landing2.gif'
+                    , '../images/landing/landing3.gif'
+                    , '../images/landing/landing4.gif'
+                    , '../images/landing/landing5.gif'
+                    , '../images/landing/landing6.gif'
+                    , '../images/landing/landing7.gif'
+                    , '../images/landing/landing8.gif'
+                    , '../images/landing/landing9.gif'
+                    , '../images/landing/landing10.gif'
+                    , '../images/landing/landing11.gif'
+                    , '../images/landing/landing12.gif'
+                    , '../images/landing/landing13.gif'
+                    , '../images/landing/landing14.gif'
+                    , '../images/landing/landing15.gif'
+                    , '../images/landing/landing16.gif'
+                    , '../images/landing/landing17.gif'
+                    , '../images/landing/landing18.gif'
+                    , '../images/landing/landing19.gif'
+                    , '../images/landing/landing20.gif'
+                    , '../images/landing/landing21.gif'];
+var image_nav = ['../images/nav/nav1.gif'
+                , '../images/nav/nav2.gif'
+                , '../images/nav/nav3.gif'
+                , '../images/nav/nav4.gif'
+                , '../images/nav/nav5.gif'
+                , '../images/nav/nav6.gif'
+                , '../images/nav/nav7.gif'
+                , '../images/nav/nav8.gif'];
+var image_profile = ['../images/profile_image/profile_image1.gif'
+                    , '../images/profile_image/profile_image2.gif'
+                    , '../images/profile_image/profile_image3.gif'
+                    , '../images/profile_image/profile_image4.gif'
+                    , '../images/profile_image/profile_image5.gif'
+                    , '../images/profile_image/profile_image6.gif'
+                    , '../images/profile_image/profile_image7.gif'
+                    , '../images/profile_image/profile_image8.gif'
+                     , '../images/profile_image/profile_image9.gif'
+                     , '../images/profile_image/profile_image10.gif'
+                     , '../images/profile_image/profile_image11.gif'
                     ];
-
 /* I claim no ownership to the gifs above. Their use is for demonstration only. Please support the original artists. */
 /* Most gifs come from http://kidmograph.tumblr.com/ please check out the rest of his amazing work. */
 /* Also check out http://www.heart-machine.com/ for the source of all the Hyper Light Drifter Art. */
-
 $('.landing, .wrapper_deck').css({
     'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'
 });
@@ -54,42 +51,32 @@ $('.menu-nav').css({
 $('.footie').css({
     'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'
 });
-
 $(".develop").click(function () {
     $('html, body').animate({
-            scrollTop: $(".dev").offset().top
-        },
-        'slow');
+        scrollTop: $(".dev").offset().top
+    }, 'slow');
 });
-
 $(".illustrate").click(function () {
     $('html, body').animate({
-            scrollTop: $(".ill").offset().top
-        },
-        'slow');
+        scrollTop: $(".ill").offset().top
+    }, 'slow');
 });
-
 $(".make").click(function () {
     $('html, body').animate({
-            scrollTop: $(".design").offset().top
-        },
-        'slow');
+        scrollTop: $(".design").offset().top
+    }, 'slow');
 });
-
 $(".logo").click(function () {
     $('html, body').animate({
-            scrollTop: $("html, body").offset().top
-        },
-        'slow');
+        scrollTop: $("html, body").offset().top
+    }, 'slow');
 });
-
 /*!
  * SimpleKonami
  * Copyright: WTFPL
  * Version: 1
  * Requires: jQuery v1.3.2 or later
  */
-
 //Set up our array of needed keys, and variables.
 neededkeys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65], started = false, count = 0;
 $(document).keydown(function (e) {
@@ -105,7 +92,8 @@ $(document).keydown(function (e) {
         if (neededkeys[count] == key) {
             //We're good so far.
             count++;
-        } else {
+        }
+        else {
             //Oops, not the right sequence, lets restart from the top.
             reset();
         }
@@ -124,11 +112,11 @@ $(document).keydown(function (e) {
                 'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'
             });
             $('.center > p').text('Konami Code Unlocked!');
-
             //Reset the conditions so that someone can do it all again.
             reset();
         }
-    } else {
+    }
+    else {
         //Oops.
         reset();
     }
