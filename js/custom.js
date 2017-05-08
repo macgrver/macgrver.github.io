@@ -41,6 +41,7 @@ var image_profile = ['../images/profile_image/profile_image1.gif'
                     ];
 /* I claim no ownership to the gifs above. Their use is for demonstration only. Please support the original artists. */
 /* Most gifs come from http://kidmograph.tumblr.com/ please check out the rest of his amazing work. */
+/* The D.Va gif is from an art competition I found on reddit, please check out Pixel-ninja’s work on deviant for more awesome stuff (http://pixel-ninja.deviantart.com/) */
 /* Also check out http://www.heart-machine.com/ for the source of all the Hyper Light Drifter Art. */
 $('.landing, .wrapper_deck').css({
     'background-image': 'url(' + image_landing[Math.floor(Math.random() * image_landing.length)] + ')'
