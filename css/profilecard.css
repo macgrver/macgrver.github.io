@@ -119,7 +119,7 @@
 
 .profile_image {
     display: flex;
-    background-image: url('../images/profile_small.jpg');
+    background-image: url('../images/profile.jpg');
     background-size: cover;
     border-radius: 50%;
     width: 200px;
