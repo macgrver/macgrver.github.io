@@ -93,8 +93,7 @@ $(document).keydown(function (e) {
         if (neededkeys[count] == key) {
             //We're good so far.
             count++;
-        }
-        else {
+        } else {
             //Oops, not the right sequence, lets restart from the top.
             reset();
         }
@@ -116,8 +115,7 @@ $(document).keydown(function (e) {
             //Reset the conditions so that someone can do it all again.
             reset();
         }
-    }
-    else {
+    } else {
         //Oops.
         reset();
     }
