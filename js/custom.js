@@ -18,7 +18,8 @@ var image_landing = ['../images/landing/landing1.gif'
                     , '../images/landing/landing18.gif'
                     , '../images/landing/landing19.gif'
                     , '../images/landing/landing20.gif'
-                    , '../images/landing/landing21.gif'];
+                    , '../images/landing/landing21.gif'
+                    , '../images/landing/landing22.gif'];
 var image_nav = ['../images/nav/nav1.gif'
                 , '../images/nav/nav2.gif'
                 , '../images/nav/nav3.gif'
@@ -38,6 +39,7 @@ var image_profile = ['../images/profile_image/profile_image1.gif'
                      , '../images/profile_image/profile_image9.gif'
                      , '../images/profile_image/profile_image10.gif'
                      , '../images/profile_image/profile_image11.gif'
+                     , '../images/profile_image/profile_image12.gif'
                     ];
 /* I claim no ownership to the gifs above. Their use is for demonstration only. Please support the original artists. */
 /* Most gifs come from http://kidmograph.tumblr.com/ please check out the rest of his amazing work. */
