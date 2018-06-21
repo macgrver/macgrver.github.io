@@ -81,6 +81,7 @@
     background-repeat: no-repeat;
     -webkit-backdrop-filter: blur(10px);
     -moz-backdrop-filter: blur(10px);
+    background-color: #000;
 }
 
 .links {
@@ -97,6 +98,15 @@
     -webkit-transition: all 0.5s ease;
     padding: 10px 10px 0;
     font-size: 25px;
+    color: #fff;
+}
+
+.email {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email:hover {
     color: #fff;
 }
 
