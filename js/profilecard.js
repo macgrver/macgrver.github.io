@@ -5,7 +5,8 @@ var quote_array = ["I loves gifs... way too much.",
                   "On the internet nobody knows you're a dog.",
                   "Graphic designer with a taste for ambitious web experiences.",
                   "Is this too many gifs? Hmmm, I'm not sure if there's enough to be honest.",
-                  "Sometimes science is a lot more art, than science. A lot of people don't get that."];
+                  "Sometimes science is a lot more art, than science. A lot of people don't get that.",
+                  "A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools."];
 var hasClicked = true;
 
 $(".profile_card").css({

@@ -192,9 +192,12 @@ body {
     font-weight: bold;
 }
 
+.sidebar {
+    color: #fff;
+}
+
 
 /* Custom Parallax */
-
 
 /*.dev {
     display: flex;
@@ -252,7 +255,6 @@ body {
     font-family: "Oswald";
     font-weight: bold;
 }*/
-
 
 /* End of Custom Paralax */
 
