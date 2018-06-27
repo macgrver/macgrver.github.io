@@ -192,6 +192,11 @@ body {
     font-weight: bold;
 }
 
+.wrapper_side {
+    width: auto;
+    height: auto;
+}
+
 .sidebar {
     color: #fff;
 }

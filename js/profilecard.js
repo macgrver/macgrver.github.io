@@ -67,17 +67,6 @@ $('.social, .deck > .close').on('click', function () {
         hasClicked = true;
     }
 });
-
-/*$('.nav-button.develop').on('click', function () {
-    if (!$('.wrapper').hasClass("hidden")) {
-        $('.wrapper').toggleClass('hidden')
-    } else if (!$('.wrapper_deck').hasClass("hidden")) {
-        $('.wrapper_deck').toggleClass('hidden')
-    } else if ($('.devwrapper').hasClass("hidden")) {
-        $('.devwrapper').toggleClass('hidden')
-    }
-});*/
-
 $('.social').hover(
     function () {
         $('.social > .fa, .social > .fa-user').css({

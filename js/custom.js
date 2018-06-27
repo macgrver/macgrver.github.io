@@ -59,26 +59,6 @@ $('.menu-nav').css({
 $('.footie').css({
     'background-image': 'url(' + image_nav[Math.floor(Math.random() * image_nav.length)] + ')'
 });
-$(".develop").click(function () {
-    $('html, body').animate({
-        scrollTop: $(".dev").offset().top
-    }, 'slow');
-});
-$(".illustrate").click(function () {
-    $('html, body').animate({
-        scrollTop: $(".ill").offset().top
-    }, 'slow');
-});
-$(".make").click(function () {
-    $('html, body').animate({
-        scrollTop: $(".design").offset().top
-    }, 'slow');
-});
-$(".logo").click(function () {
-    $('html, body').animate({
-        scrollTop: $("html, body").offset().top
-    }, 'slow');
-});
 /*!
  * SimpleKonami
  * Copyright: WTFPL
