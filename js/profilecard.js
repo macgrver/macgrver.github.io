@@ -1,3 +1,29 @@
+/*jslint browser: true*/
+/*global $*/
+var image_profile = ['../images/profile_image/profile_image1.gif'
+                    , '../images/profile_image/profile_image2.gif'
+                    , '../images/profile_image/profile_image3.gif'
+                    , '../images/profile_image/profile_image4.gif'
+                    , '../images/profile_image/profile_image5.gif'
+                    , '../images/profile_image/profile_image6.gif'
+                    , '../images/profile_image/profile_image7.gif'
+                    , '../images/profile_image/profile_image8.gif'
+                     , '../images/profile_image/profile_image9.gif'
+                     , '../images/profile_image/profile_image10.gif'
+                     , '../images/profile_image/profile_image11.gif'
+                     , '../images/profile_image/profile_image12.gif'
+                     , '../images/profile_image/profile_image13.gif'
+                     , '../images/profile_image/profile_image14.gif'
+                    ];
+var test_video = ['../images/test/test1.mp4'
+                     , '../images/test/test2.mp4'
+                     , '../images/test/test3.mp4'
+                     , '../images/test/test4.mp4'
+                     , '../images/test/test5.mp4'
+                     , '../images/test/test6.mp4'
+
+];
+/* The videos above are by /u/_NoMansDream. Please check out his amazing work on reddit */
 var randomColor = Math.floor(Math.random() * 16777215).toString(16);
 
 var quote_array = ["I loves gifs... way too much.",
@@ -19,12 +45,13 @@ $(".title > h1, .title > h2").css({
 
 $('.social, .deck > .close').on('click', function () {
     if (hasClicked === true) {
-        $('.landing > img, .landing > p').addClass('animated bounceOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+        $('.center').addClass('animated bounceOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
             function () {
                 $(this).removeClass('animated bounceOut');
+                $('.wrapper').toggleClass('hidden');
+                $('.wrapper_deck').toggleClass('hidden');
             });
-        $('.wrapper').toggleClass('hidden');
-        $('.wrapper_deck').toggleClass('hidden');
+
         $(".profile_card").css({
 
             backgroundColor: '#' + Math.floor(Math.random() * 16777215).toString(16)
@@ -62,6 +89,10 @@ $('.social, .deck > .close').on('click', function () {
                 $('.wrapper').toggleClass('hidden');
                 $('.wrapper_deck').toggleClass('hidden');
                 $('.landing > img, .landing > p').toggleClass('hidden');
+            });
+        $('.center').addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+            function () {
+                $(this).removeClass('animated bounceIn');
             });
 
         hasClicked = true;

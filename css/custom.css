@@ -27,7 +27,7 @@ body {
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 27%, rgba(0, 0, 0, 0.01) 99%, rgba(0, 0, 0, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
     /* IE6-9 */
 }
 
@@ -112,6 +112,14 @@ body {
     -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
     -moz-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
+}
+
+.center > p {
+    margin: auto;
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 0px 2px 5px rgba(60, 60, 60, 0.5);
+    text-align: center;
 }
 
 .logo {
@@ -400,17 +408,21 @@ nav,
     .container {
         flex-wrap: wrap;
     }
+
     .home-img {
         display: none;
     }
+
     .icon-container {
         height: 100%;
         flex-direction: row;
         -webkit-box-orient: horizontal;
     }
+
     .center > img {
         max-width: 350px;
     }
+
     .menu-nav {
         height: 70px;
         width: 100%;
@@ -418,35 +430,45 @@ nav,
         flex-direction: row;
         position: fixed;
     }
+
     .menu-nav > .logo {
         width: 4em;
         height: auto;
     }
+
     .nav-button {
         padding: 0px 10px 0px 10px !important;
     }
+
     .nav-button > i {
         font-size: 2rem;
         margin: 10px;
     }
+
     .nav-button > img {
         height: 3rem;
     }
+
     .nav-button > p {
         font-size: 1rem;
     }
+
     .nav-button:hover {
         background-color: rgba(0, 0, 0, 0);
     }
+
     .nav-button:active {
         background-color: rgba(255, 255, 255, 0.25);
     }
+
     .title-text {
         margin-top: 0;
     }
+
     .wrapper {
         margin-left: 0px
     }
+
     .wrapper_deck {
         margin-left: 0px;
         ;

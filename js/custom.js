@@ -1,3 +1,5 @@
+/*jslint browser: true*/
+/*global $*/
 var image_landing = ['../images/landing/landing1.gif'
                     , '../images/landing/landing2.gif'
                     , '../images/landing/landing3.gif'
@@ -31,21 +33,6 @@ var image_nav = ['../images/nav/nav1.gif'
                 , '../images/nav/nav7.gif'
                 , '../images/nav/nav8.gif'
                 , '../images/nav/nav9.gif'];
-var image_profile = ['../images/profile_image/profile_image1.gif'
-                    , '../images/profile_image/profile_image2.gif'
-                    , '../images/profile_image/profile_image3.gif'
-                    , '../images/profile_image/profile_image4.gif'
-                    , '../images/profile_image/profile_image5.gif'
-                    , '../images/profile_image/profile_image6.gif'
-                    , '../images/profile_image/profile_image7.gif'
-                    , '../images/profile_image/profile_image8.gif'
-                     , '../images/profile_image/profile_image9.gif'
-                     , '../images/profile_image/profile_image10.gif'
-                     , '../images/profile_image/profile_image11.gif'
-                     , '../images/profile_image/profile_image12.gif'
-                     , '../images/profile_image/profile_image13.gif'
-                     , '../images/profile_image/profile_image14.gif'
-                    ];
 /* I claim no ownership to the gifs above. Their use is for demonstration only. Please support the original artists. */
 /* Most gifs come from http://kidmograph.tumblr.com/ please check out the rest of his amazing work. */
 /* The D.Va gif is from an art competition I found on reddit, please check out Pixel-ninja’s work on deviant for more awesome stuff (http://pixel-ninja.deviantart.com/) */
