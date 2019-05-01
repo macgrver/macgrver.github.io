@@ -21,7 +21,6 @@ var test_video = ['../images/test/test1.mp4'
                      , '../images/test/test4.mp4'
                      , '../images/test/test5.mp4'
                      , '../images/test/test6.mp4'
-
 ];
 /* The videos above are by /u/_NoMansDream. Please check out his amazing work on reddit */
 var randomColor = Math.floor(Math.random() * 16777215).toString(16);
@@ -51,11 +50,8 @@ $('.social, .deck > .close').on('click', function () {
                 $('.wrapper').toggleClass('hidden');
                 $('.wrapper_deck').toggleClass('hidden');
             });
-
         $(".profile_card").css({
-
             backgroundColor: '#' + Math.floor(Math.random() * 16777215).toString(16)
-
         });
         var rando_quote = quote_array[Math.round(Math.random() * quote_array.length)];
         $('.sub_text > p').text(rando_quote);
@@ -94,7 +90,6 @@ $('.social, .deck > .close').on('click', function () {
             function () {
                 $(this).removeClass('animated bounceIn');
             });
-
         hasClicked = true;
     }
 });
