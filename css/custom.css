@@ -115,11 +115,11 @@ body {
 }
 
 .center > p {
-    margin: auto;
-    color: #fff;
-    font-size: 2.5rem;
-    text-shadow: 0px 2px 5px rgba(60, 60, 60, 0.5);
-    text-align: center;
+    margin: auto !important;
+    color: #fff !important;
+    font-size: 2.5rem !important;
+    text-shadow: 0px 2px 5px rgba(60, 60, 60, 0.5) !important;
+    text-align: center !important;
 }
 
 .logo {
