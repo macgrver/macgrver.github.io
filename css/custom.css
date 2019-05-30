@@ -419,7 +419,9 @@ nav,
     }
 
     .center > img {
-        max-width: 350px;
+        max-width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     .menu-nav {
